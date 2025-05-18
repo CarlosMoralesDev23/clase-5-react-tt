@@ -28,6 +28,7 @@ const Home = ({
             .then((respuesta) => respuesta.json())
             .then((datos) => {
                 setProductos(datos), setCarga(false);
+                console.log(datos);
             })
             .catch((error) => {
                 console.log("Error: ", error), setCarga(false), setError(true);
