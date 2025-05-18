@@ -13,16 +13,24 @@
 }
 
 .SubtotalAndDeletProduct button {
-    background-color: #dc3545;
+    background-color: white;
+    border: 1px solid black;
     color: white;
-    border: none;
     padding: 8px 15px;
     border-radius: 8px;
     cursor: pointer;
     font-size: 0.9em;
     transition: background-color 0.2s ease;
+
+    &:hover {
+        background-color: #c82333;
+    }
+
+    img{
+        width: 30px;
+    }
+
+
 }
 
-.SubtotalAndDeletProduct button:hover {
-    background-color: #c82333;
-}
+ 
