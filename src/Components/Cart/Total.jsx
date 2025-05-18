@@ -7,7 +7,6 @@ const Total = ({cart}) => {
         return Total + item.subtotal
 
     }, 0 )
-    console.log(Total)
     
 
 

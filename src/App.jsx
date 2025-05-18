@@ -2,7 +2,6 @@ import "./App.css";
 import Home from "./Layouts/Home.jsx";
 import { useState } from "react";
 
-import { addToCart } from "./Utils/Funciones/addToCart.js";
 
 function App() {
     const [cart, setCart] = useState([]);
