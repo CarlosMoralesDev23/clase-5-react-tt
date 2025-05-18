@@ -3,9 +3,8 @@ import React from "react";
 import "../Styles/ListProducts.css";
 import Product from "./Product";
 
-import {products} from "../Utils/data.js"
 
-const ListProducts = ({ addToCart }) => {
+const ListProducts = ({ addToCart, products }) => {
     return (
         <div className="containProducts">
             {products.map((product) => (

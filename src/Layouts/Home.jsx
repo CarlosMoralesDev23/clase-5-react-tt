@@ -4,6 +4,8 @@ import Main from "../Components/Main";
 import Cart from "../Components/Cart/Cart"
 import ListProducts from "../Components/ListProducts";
 import Footer from "../Components/Footer";
+import { products } from "../Utils/data.js";
+
 
 const Home = ({
     cart,
@@ -27,7 +29,7 @@ const Home = ({
                 emptyCart={emptyCart}
             />
             
-            <ListProducts addToCart={addToCart} />
+            <ListProducts addToCart={addToCart} products={products} />
 
             <Footer />
         </>
